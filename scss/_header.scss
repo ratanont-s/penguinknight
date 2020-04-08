@@ -1,0 +1,46 @@
+header {
+    background-color: $header-bg;
+
+    .nav {
+
+        &-item,
+        &-link {
+            color: $light;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        .nav {
+            &-icon {
+                display: none;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .navbar {
+            >.container {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            &-brand {
+                margin-right: 0;
+
+                img {
+                    max-width: 250px;
+                }
+            }
+        }
+
+        .nav {
+            &-link {
+                padding: 0rem 0.5rem;
+            }
+
+            &-text {
+                display: none;
+            }
+        }
+    }
+}

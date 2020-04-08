@@ -1,0 +1,38 @@
+// Colors
+$primary: #0054a6;
+$secondary: #ff6600;
+$header-bg: #545b73;
+$title-color: #336699;
+$facebook-bg: #3b5998;
+$google-bg: #dc5246;
+
+$theme-colors: ("facebook": $facebook-bg,
+    "google": $google-bg,
+);
+
+
+// Breadcrumb
+$breadcrumb-divider: quote(">>");
+$breadcrumb-margin-bottom: 0;
+$breadcrumb-bg: transparent;
+$breadcrumb-active-color: $primary;
+
+// Fonts
+$font-family-base: 'PSL Kittithada Pro';
+$font-size-base: 1.5rem;
+$headings-font-weight: bold;
+$enable-responsive-font-sizes: true;
+
+// Links
+$link-hover-decoration: none;
+
+// Buttons
+$btn-font-weight: bold;
+$btn-border-radius: .5rem;
+$btn-border-radius-lg: .75rem;
+$btn-border-radius-sm: .25rem;
+
+// Forms
+$input-border-radius: .5rem;
+$input-border-radius-lg: .75rem;
+$input-border-radius-sm: .25rem;

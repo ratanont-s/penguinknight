@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Knight</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="sticky-top">
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/img/logo.png" alt="Logo" class="img-fluid">
+                </a>
+                <ul class="nav align-items-center ml-auto">
+                    <!-- Before log in -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            <span class="nav-text">Log in</span>
+                            <span class="nav-icon"><i class="fas fa-sign-in-alt"></i></span>
+                        </a>
+                    </li>
+                    <!-- End Before log in -->
+                    <!-- After log in -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span class="nav-text">User : Natthee009</span>
+                            <div class="nav-icon"><i class="fas fa-user-circle"></i></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        |
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span class="nav-text">Log out</span>
+                            <span class="nav-icon"><i class="fas fa-sign-out-alt"></i></span>
+                        </a>
+                    </li> -->
+                    <!-- End After log in -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Main -->
+    <main>
+        <section id="breadcrumb" class="breadcrumb-bg">
+            <nav class="container">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item" aria-current="page">หน้าหลัก</li>
+                </ol>
+            </nav>
+        </section>
+        <section id="banner" class="banner">
+            <div class="banner-slider">
+                <a href="#" class="banner-slider-item">
+                    <img src="./assets/img/banner.jpg" alt="Banner" class="w-100">
+                </a>
+                <a href="#" class="banner-slider-item">
+                    <img src="./assets/img/banner.jpg" alt="Banner" class="w-100">
+                </a>
+                <a href="#" class="banner-slider-item">
+                    <img src="./assets/img/banner.jpg" alt="Banner" class="w-100">
+                </a>
+            </div>
+        </section>
+        <section id="game-product">
+            <div class="container">
+                <h2 class="text-title mb-4 mb-lg-5">Game Product</h2>
+                <div class="row justify-content-lg-around">
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <a href="#" class="card card-game-product">
+                            <img src="./assets/img/SAMKOK_MOE.png" alt="SAMKOK MOE" class="card-img">
+                            <h5 class="card-title">SAMKOK MOE</h5>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <a href="#" class="card card-game-product">
+                            <img src="./assets/img/put_your_hands_up.png" alt="PUT YOUR HANDS UP" class="card-img">
+                            <h5 class="card-title">PUT YOUR HANDS UP</h5>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <a href="#" class="card card-game-product">
+                            <img src="./assets/img/lucky_store.png" alt="LUCKY STORE" class="card-img">
+                            <h5 class="card-title">LUCKY STORE</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- End Main -->
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-2 mt-auto">
+        <div class="container text-center">
+            <small>©2020 PENGUIN KNIGHT CO.,LTD. All rights reserved.</small>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+        $(function () {
+            $('.banner-slider').slick({
+                arrows: false,
+                dots: true,
+                autoplay: true,
+            });
+        });
+    </script>
+</body>
+
+</html>

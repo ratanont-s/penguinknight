@@ -1,0 +1,13 @@
+@import './fonts';
+@import './variables';
+@import './bootstrap/bootstrap.scss';
+@import './cards';
+@import './header';
+
+@import './custom';
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
