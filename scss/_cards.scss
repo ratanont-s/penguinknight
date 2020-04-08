@@ -22,7 +22,8 @@
     .card {
         &-img {
             border-radius: 0;
-            margin-bottom: 1rem;
+            max-width: 255px;
+            margin: 0 auto 1rem;
         }
 
         &-title {
